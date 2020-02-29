@@ -6,6 +6,7 @@ function getVid(){
 
 function playVid() { 
 	video.play()
+	let volumeSlider = document.querySelector('#volumeSlider');
 	document.querySelector("#volume").innerHTML = volumeSlider.valueAsNumber +"%";
 	console.log("Play Video");
 } 
